@@ -1,0 +1,49 @@
+﻿@model List<Blog>
+
+<div class="container pt-4 pb-4">
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="card border-0 mb-4 box-shadow h-xl-300">
+                @if (Model[0] != null)
+                {
+                    <div style="background-image: url(/Tema/assets/img/demo/1.jpg); height: 150px;    background-size: cover;    background-repeat: no-repeat;"></div>
+                    <div class="card-body px-0 pb-0 d-flex flex-column align-items-start">
+                        <h2 class="h4 font-weight-bold">
+                            <a class="text-dark" href="~/Tema/article.html">@Model[0].Header</a>
+                        </h2>
+                        <p class="card-text">
+                            @Model[0].Entry
+                        </p>
+                        <div>
+                            <small class="d-block"><a class="text-muted" href="/Blog/Content/@Model[0].Id">@Model[0].AppUser.Name</a></small>
+                            <small class="text-muted">@Model[0].Date &middot; @Model[0].MinsToRead min read</small>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+
+        <div class="col-lg-6">
+            <div class="flex-md-row mb-4 box-shadow h-xl-300">
+                @foreach (var item in Model)
+                {
+                    @if (item != Model[0])
+                    {
+                        <div class="mb-3 d-flex align-items-center">
+                            <img height="80" width="130" src="@item.Image">
+                            <div class="pl-3">
+                                <h2 class="mb-2 h6 font-weight-bold">
+                                    <a class="text-dark" href="/Blog/Content/@item.Id">@item.Header</a>
+                                </h2>
+                                <div class="card-text text-muted small">
+                                    @item.AppUser.Name in @item.Category.CategoryName
+                                </div>
+                                <small class="text-muted">@item.Date &middot; @item.MinsToRead min read</small>
+                            </div>
+                        </div>
+                    }
+                }
+            </div>
+        </div>
+    </div>
+</div>

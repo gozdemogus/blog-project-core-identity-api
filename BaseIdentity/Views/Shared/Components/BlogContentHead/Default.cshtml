@@ -1,0 +1,81 @@
+﻿@model Blog
+<div class="container">
+    <div class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative">
+        <div class="h-100 tofront">
+            <div class="row justify-content-between">
+                <div class="col-md-6 pt-6 pb-6 pr-6 align-self-center">
+                    <p class="text-uppercase font-weight-bold">
+                        <a class="text-danger" href="/Category/List/@Model.CategoryId">@Model.Category.CategoryName</a>
+                    </p>
+                    <h1 class="display-4 secondfont mb-3 font-weight-bold">@Model.Header</h1>
+                    <p class="mb-3">
+                        @Model.Entry
+                    </p>
+
+                    <div class="d-flex align-items-center">
+                       <a href="/Writer/Index/@Model.AppUserId"> <img class="rounded-circle" src="@Model.AppUser.Image" width="70"></a>
+                        <small class="ml-2">
+                            @Model.AppUser.Name @Model.AppUser.Surname <span class="text-muted d-block">@Model.Date &middot; @Model.MinsToRead min. read</span>
+                        </small>
+                    </div>
+                </div>
+                <div class="col-md-6 pr-0">
+                    <img src="@Model.Image">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--gövde kısmı-->
+
+<div class="container pt-4 pb-4">
+    <div class="row justify-content-center">
+        <div class="col-lg-2 pr-4 mb-4 col-md-12">
+            <div class="sticky-top text-center">
+                <div class="text-muted">
+                    Share this
+                </div>
+                <div class="share d-inline-block">
+                    <!-- AddToAny BEGIN -->
+                    <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+                        <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+                        <a class="a2a_button_facebook"></a>
+                        <a class="a2a_button_twitter"></a>
+                    </div>
+                    <script async src="https://static.addtoany.com/menu/page.js"></script>
+                    <!-- AddToAny END -->
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12 col-lg-8">
+            <article class="article-post">
+                <p>
+                    @Model.Content
+                </p>
+                <img class="" src="@Model.Image2" width="300" align="middle">
+
+                <p>
+                    @Model.Content2
+                </p>
+                <img class="" src="@Model.Image3" width="300" align="middle">
+
+                <p>
+                    @Model.Content3
+                </p>
+
+            </article>
+            @await Component.InvokeAsync("BlogContentMail")
+
+        </div>
+    </div>
+</div>
+
+<div class="container pt-4 pb-4">
+    <h5 class="font-weight-bold spanborder"><span>Read next</span></h5>
+    <div class="row">
+
+        @await Component.InvokeAsync("Main4Blogs")
+
+    </div>
+</div>

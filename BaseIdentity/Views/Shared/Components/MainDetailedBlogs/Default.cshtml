@@ -1,0 +1,24 @@
+﻿
+@model List<Blog>
+
+<div class="col-md-8">
+    <h5 class="font-weight-bold spanborder"><span>All Stories</span></h5>
+    @foreach (var item in Model)
+    {
+        <div class="mb-3 d-flex justify-content-between">
+            <div class="pr-3">
+                <h2 class="mb-1 h4 font-weight-bold">
+                    <a class="text-dark" href="/Blog/Content/@item.Id">@item.Header</a>
+                </h2>
+                <p>
+                   @item.Entry
+                </p>
+                <div class="card-text text-muted small">
+                    @item.AppUser.Name in @item.Category.CategoryName
+                </div>
+                <small class="text-muted">@item.Date &middot; @item.MinsToRead min read</small>
+            </div>
+            <img height="120" src="@item.Image">
+        </div>
+    }
+</div>

@@ -1,0 +1,20 @@
+﻿@model List<SongViewModel>
+
+<div class="col-md-4 pl-4">
+    <h5 class="font-weight-bold spanborder"><span>Top 5 Songs In Turkey</span></h5>
+    <ol class="list-featured">
+        @foreach (var item in Model)
+        {
+            <li>
+                <span>
+                    <h6 class="font-weight-bold">
+                     <a href="https://www.youtube.com/results?search_query=@item.trackName+@item.artistName">@item.trackName</a> 
+                    </h6>
+                    <p class="text-muted">
+                     <a href="https://www.youtube.com/results?search_query=@item.trackName+@item.artistName">@item.artistName</a>
+                    </p>
+                </span>
+            </li>
+        }
+    </ol>
+</div>

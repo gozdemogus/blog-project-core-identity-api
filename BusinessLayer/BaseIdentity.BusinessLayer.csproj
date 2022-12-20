@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>BusinessLayer</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BaseIdentity.DataAccessLayer\BaseIdentity.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\EntityLayer\BaseIdentity.EntityLayer.csproj" />
+  </ItemGroup>
+</Project>

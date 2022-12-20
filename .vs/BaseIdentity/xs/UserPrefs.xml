@@ -1,0 +1,55 @@
+﻿<Properties StartupConfiguration="{6C015F86-8E18-4BC9-8DD3-D321A4F4915C}|WebApplication1">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BaseIdentity/Controllers/BlogController.cs">
+    <Files>
+      <File FileName="BaseIdentity/appsettings.json" Line="12" Column="3" />
+      <File FileName="BaseIdentity/Controllers/BlogController.cs" Line="60" Column="75" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BaseIdentity" expanded="True">
+            <Node name="BaseIdentity.PresentationLayer" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="BlogController.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="ViewComponents" expanded="True">
+                <Node name="BlogMain" expanded="True" />
+                <Node name="Home" expanded="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Blog" expanded="True" />
+                <Node name="Category" expanded="True" />
+                <Node name="Home" expanded="True" />
+                <Node name="Login" expanded="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="Components" expanded="True">
+                    <Node name="BigBlog" expanded="True" />
+                    <Node name="BlogContentHead" expanded="True" />
+                    <Node name="BlogContentMail" expanded="True" />
+                    <Node name="Header" expanded="True" />
+                    <Node name="Main4Blogs" expanded="True" />
+                    <Node name="MainDetailedBlogs" expanded="True" />
+                    <Node name="PopularBlogs" expanded="True" />
+                    <Node name="PopularBlogsByCategory" expanded="True" />
+                    <Node name="PopularMusic" expanded="True" />
+                  </Node>
+                </Node>
+                <Node name="Writer" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/ViewComponents/BlogMain/PopularMusic.cs" relfile="BaseIdentity/ViewComponents/BlogMain/PopularMusic.cs" line="41" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.BaseIdentity.PresentationLayer PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>

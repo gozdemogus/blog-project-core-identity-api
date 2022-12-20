@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+
+<!--------------------------------------
+HEADER
+--------------------------------------->
+
+@await Component.InvokeAsync("BigBlog")
+
+<!-- End Header -->
+<!--------------------------------------
+MAIN
+--------------------------------------->
+
+@await Component.InvokeAsync("Main4Blogs")
+
+<div class="container">
+    <div class="row justify-content">
+
+
+        @await Component.InvokeAsync("MainDetailedBlogs")
+
+        @*@await Component.InvokeAsync("PopularBlogs")*@
+
+        @await Component.InvokeAsync("PopularMusic")
+
+
+
+    </div>
+</div>

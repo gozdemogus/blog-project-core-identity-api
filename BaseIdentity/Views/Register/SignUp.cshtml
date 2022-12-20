@@ -1,0 +1,33 @@
+﻿@model AppUserRegisterViewModel
+
+
+    <form method="post" asp-controller="Register" asp-action="SignUp" align="center">
+        <h2>Register</h2>
+         <br/>
+        <div class="form-group" align="center">
+      <input type="text" class="form-control" style="width:230px" placeholder="Name" asp-for="Name" />
+            <span asp-validation-for="Name" class="text-info"></span>
+      </div>
+      <div class="form-group" align="center"><input type="text" class="form-control" style="width:230px" placeholder="Surname" asp-for="Surname" />
+        <span asp-validation-for="Surname" class="text-info"></span>
+      </div>
+        
+      <div class="form-group" align="center"><input type="text" class="form-control" style="width:230px" placeholder="Username" asp-for="Username" />
+        <span asp-validation-for="Username" class="text-info"></span>
+         </div>
+        
+      <div class="form-group" align="center"><input type="text" class="form-control" style="width:230px" placeholder="Mail" asp-for="Mail" />
+        <span asp-validation-for="Mail" class="text-info"></span>
+         </div>
+        
+      <div class="form-group" align="center"><input type="text" class="form-control" style="width:230px" placeholder="Password" asp-for="Password" />
+        <span asp-validation-for="Password" class="text-info"></span>
+         </div>
+        
+      <div class="form-group" align="center"><input type="text" class="form-control" style="width:230px" placeholder="Confirm Password" asp-for="ConfirmPassword" />
+        <span asp-validation-for="ConfirmPassword" class="text-info"></span>
+         </div>
+
+        <div asp-validation-summary="ModelOnly" class="text-success"></div>
+        <button type="submit" class="btn btn-success btn-round">Save</button>
+    </form>

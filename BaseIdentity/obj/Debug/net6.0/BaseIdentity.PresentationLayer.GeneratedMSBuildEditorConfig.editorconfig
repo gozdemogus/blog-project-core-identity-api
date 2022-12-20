@@ -1,0 +1,109 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BaseIdentity.PresentationLayer
+build_property.RootNamespace = BaseIdentity.PresentationLayer
+build_property.ProjectDir = /Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Views/Blog/Content.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmxvZy9Db250ZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Views/Category/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcnkvTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Views/Login/SignIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9naW4vU2lnbkluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Views/Register/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVnaXN0ZXIvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Views/Register/SignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVnaXN0ZXIvU2lnblVwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Views/Shared/Components/BigBlog/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvQmlnQmxvZy9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Views/Shared/Components/BlogContentHead/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvQmxvZ0NvbnRlbnRIZWFkL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Views/Shared/Components/BlogContentMail/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvQmxvZ0NvbnRlbnRNYWlsL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Views/Shared/Components/Header/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvSGVhZGVyL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Views/Shared/Components/Main4Blogs/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvTWFpbjRCbG9ncy9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Views/Shared/Components/MainDetailedBlogs/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvTWFpbkRldGFpbGVkQmxvZ3MvRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Views/Shared/Components/PopularBlogs/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvUG9wdWxhckJsb2dzL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Views/Shared/Components/PopularBlogsByCategory/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvUG9wdWxhckJsb2dzQnlDYXRlZ29yeS9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Views/Shared/Components/PopularMusic/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvUG9wdWxhck11c2ljL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Views/Writer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvV3JpdGVyL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Views/Writer/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvV3JpdGVyL1Byb2ZpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

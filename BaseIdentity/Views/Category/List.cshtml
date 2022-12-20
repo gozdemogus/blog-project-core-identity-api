@@ -1,0 +1,59 @@
+﻿@model List<Blog>
+
+
+
+<div class="container mt-5 mb-5">
+    <div class="row">
+     
+            <div class="col-md-8">
+                <h5 class="font-weight-bold spanborder"><span>Featured in @Model[0].Category.CategoryName</span></h5>
+                <div class="card border-0 mb-5 box-shadow">
+                    <div style="background-image: url(@Model[0].Image); height: 350px; background-size: cover; background-repeat: no-repeat;">
+                    </div>
+                    <div class="card-body px-0 pb-0 d-flex flex-column align-items-start">
+                        <h2 class="h2 font-weight-bold">
+                            <a class="text-dark" href="/Blog/Content/@Model[0].Id">@Model[0].Header</a>
+                        </h2>
+                        <p class="card-text">
+                            @Model[0].Entry
+                        </p>
+                        <div>
+                            <small class="d-block"><a class="text-muted" href="./author.html">@Model[0].AppUser.Name</a></small>
+                            <small class="text-muted">@Model[0].Date · @Model[0].MinsToRead min read</small>
+                        </div>
+                    </div>
+                </div>
+                <h5 class="font-weight-bold spanborder"><span>Latest</span></h5>
+                @foreach (var item in Model)
+                {
+                    if (item != Model[0])
+                    {
+                        <div class="mb-3 d-flex justify-content-between">
+                            <div class="pr-3">
+                                <h2 class="mb-1 h4 font-weight-bold">
+                                    <a class="text-dark" href="/Blog/Content/@item.Id">@item.Header</a>
+                                </h2>
+                                <p>
+                                    @item.Entry
+                                </p>
+                                <div class="card-text text-muted small">
+                                    @item.AppUser.Name in @item.Category.CategoryName
+                                </div>
+                                <small class="text-muted">Dec 12 · 5 min read</small>
+                            </div>
+                            <img height="120" src="@item.Image">
+                        </div>
+                        }
+                    }
+
+            </div>
+
+
+            @await Component.InvokeAsync("PopularBlogsByCategory", Model[0].CategoryId)
+            
+        </div>
+</div>
+
+<div align="center" style="width:auto">
+@await Component.InvokeAsync("BlogContentMail")
+    </div>

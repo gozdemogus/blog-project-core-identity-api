@@ -1,0 +1,1221 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/LICENSE.txt",
+      "PackagePath": "staticwebassets/Tema/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/README.md",
+      "PackagePath": "staticwebassets/Tema/README.md"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/about.html",
+      "PackagePath": "staticwebassets/Tema/about.html"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/article.html",
+      "PackagePath": "staticwebassets/Tema/article.html"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/css/main.css",
+      "PackagePath": "staticwebassets/Tema/assets/css/main.css"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/css/main.css.map",
+      "PackagePath": "staticwebassets/Tema/assets/css/main.css.map"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/css/vendor/aos.css",
+      "PackagePath": "staticwebassets/Tema/assets/css/vendor/aos.css"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/css/vendor/bootstrap-toc.css",
+      "PackagePath": "staticwebassets/Tema/assets/css/vendor/bootstrap-toc.css"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/css/vendor/prism.css",
+      "PackagePath": "staticwebassets/Tema/assets/css/vendor/prism.css"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/img/demo/1.jpg",
+      "PackagePath": "staticwebassets/Tema/assets/img/demo/1.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/img/demo/10.jpg",
+      "PackagePath": "staticwebassets/Tema/assets/img/demo/10.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/img/demo/2.jpg",
+      "PackagePath": "staticwebassets/Tema/assets/img/demo/2.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/img/demo/3.jpg",
+      "PackagePath": "staticwebassets/Tema/assets/img/demo/3.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/img/demo/5.jpg",
+      "PackagePath": "staticwebassets/Tema/assets/img/demo/5.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/img/demo/9.jpg",
+      "PackagePath": "staticwebassets/Tema/assets/img/demo/9.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/img/demo/avatar.png",
+      "PackagePath": "staticwebassets/Tema/assets/img/demo/avatar.png"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/img/demo/avatar2.jpg",
+      "PackagePath": "staticwebassets/Tema/assets/img/demo/avatar2.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/img/demo/blog4.jpg",
+      "PackagePath": "staticwebassets/Tema/assets/img/demo/blog4.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/img/demo/blog5.jpg",
+      "PackagePath": "staticwebassets/Tema/assets/img/demo/blog5.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/img/demo/blog6.jpg",
+      "PackagePath": "staticwebassets/Tema/assets/img/demo/blog6.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/img/demo/blog8.jpg",
+      "PackagePath": "staticwebassets/Tema/assets/img/demo/blog8.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/img/demo/blog9.jpg",
+      "PackagePath": "staticwebassets/Tema/assets/img/demo/blog9.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/img/demo/coffee.png",
+      "PackagePath": "staticwebassets/Tema/assets/img/demo/coffee.png"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/img/demo/demo1.jpg",
+      "PackagePath": "staticwebassets/Tema/assets/img/demo/demo1.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/img/demo/home.jpg",
+      "PackagePath": "staticwebassets/Tema/assets/img/demo/home.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/img/demo/intro.jpg",
+      "PackagePath": "staticwebassets/Tema/assets/img/demo/intro.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/img/demo/sal.jpg",
+      "PackagePath": "staticwebassets/Tema/assets/img/demo/sal.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/img/demo/slide1.jpg",
+      "PackagePath": "staticwebassets/Tema/assets/img/demo/slide1.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/img/demo/slide2.jpg",
+      "PackagePath": "staticwebassets/Tema/assets/img/demo/slide2.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/img/demo/slide3.jpg",
+      "PackagePath": "staticwebassets/Tema/assets/img/demo/slide3.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/img/favicon.ico",
+      "PackagePath": "staticwebassets/Tema/assets/img/favicon.ico"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/img/sample/undraw_QA_engineers_dg5p.svg",
+      "PackagePath": "staticwebassets/Tema/assets/img/sample/undraw_QA_engineers_dg5p.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/img/sample/undraw_having_fun_iais.png",
+      "PackagePath": "staticwebassets/Tema/assets/img/sample/undraw_having_fun_iais.png"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/img/sample/undraw_off_road_9oae.svg",
+      "PackagePath": "staticwebassets/Tema/assets/img/sample/undraw_off_road_9oae.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/img/sample/undraw_vehicle_sale_v7fm.svg",
+      "PackagePath": "staticwebassets/Tema/assets/img/sample/undraw_vehicle_sale_v7fm.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/img/sample/undraw_working_late_pukg.svg",
+      "PackagePath": "staticwebassets/Tema/assets/img/sample/undraw_working_late_pukg.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/img/screenshot-mundana-article.png",
+      "PackagePath": "staticwebassets/Tema/assets/img/screenshot-mundana-article.png"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/img/screenshot-mundana-category.png",
+      "PackagePath": "staticwebassets/Tema/assets/img/screenshot-mundana-category.png"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/img/screenshot-mundana.png",
+      "PackagePath": "staticwebassets/Tema/assets/img/screenshot-mundana.png"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/js/functions.js",
+      "PackagePath": "staticwebassets/Tema/assets/js/functions.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/js/vendor/aos.js",
+      "PackagePath": "staticwebassets/Tema/assets/js/vendor/aos.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/js/vendor/bootstrap-toc.js",
+      "PackagePath": "staticwebassets/Tema/assets/js/vendor/bootstrap-toc.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/js/vendor/bootstrap.min.js",
+      "PackagePath": "staticwebassets/Tema/assets/js/vendor/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/js/vendor/jquery.min.js",
+      "PackagePath": "staticwebassets/Tema/assets/js/vendor/jquery.min.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/js/vendor/popper.min.js",
+      "PackagePath": "staticwebassets/Tema/assets/js/vendor/popper.min.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/js/vendor/prism.js",
+      "PackagePath": "staticwebassets/Tema/assets/js/vendor/prism.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/js/vendor/share.js",
+      "PackagePath": "staticwebassets/Tema/assets/js/vendor/share.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/_index.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/_index.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/bootstrap-grid.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/bootstrap-grid.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/bootstrap-reboot.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/bootstrap-user-variables.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/bootstrap-user-variables.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/bootstrap.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/bootstrap.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/_alert.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/_alert.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/_badge.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/_badge.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/_breadcrumb.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/_breadcrumb.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/_button-group.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/_button-group.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/_buttons.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/_buttons.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/_card.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/_card.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/_carousel.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/_carousel.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/_close.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/_close.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/_code.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/_code.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/_custom-forms.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/_custom-forms.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/_dropdown.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/_dropdown.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/_forms.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/_forms.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/_functions.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/_functions.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/_grid.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/_grid.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/_images.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/_images.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/_input-group.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/_input-group.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/_jumbotron.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/_jumbotron.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/_list-group.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/_list-group.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/_media.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/_media.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/_mixins.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/_mixins.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/_modal.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/_modal.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/_nav.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/_nav.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/_navbar.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/_navbar.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/_pagination.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/_pagination.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/_popover.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/_popover.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/_print.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/_print.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/_progress.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/_progress.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/_reboot.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/_reboot.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/_root.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/_root.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/_tables.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/_tables.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/_tooltip.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/_tooltip.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/_transitions.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/_transitions.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/_type.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/_type.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/_utilities.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/_utilities.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/_variables.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/_variables.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_alert.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_alert.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_background-variant.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_background-variant.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_badge.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_badge.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_border-radius.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_border-radius.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_box-shadow.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_box-shadow.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_breakpoints.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_breakpoints.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_buttons.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_buttons.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_caret.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_caret.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_clearfix.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_clearfix.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_float.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_float.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_forms.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_forms.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_gradients.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_gradients.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_grid-framework.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_grid-framework.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_grid.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_grid.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_hover.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_hover.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_image.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_image.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_list-group.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_list-group.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_lists.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_lists.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_nav-divider.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_nav-divider.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_navbar-align.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_navbar-align.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_pagination.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_pagination.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_reset-text.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_reset-text.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_resize.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_resize.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_screen-reader.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_screen-reader.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_size.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_size.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_table-row.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_table-row.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_text-emphasis.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_text-emphasis.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_text-hide.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_text-hide.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_text-truncate.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_text-truncate.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_transition.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_transition.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_visibility.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/mixins/_visibility.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/utilities/_align.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/utilities/_align.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/utilities/_background.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/utilities/_background.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/utilities/_borders.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/utilities/_borders.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/utilities/_clearfix.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/utilities/_clearfix.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/utilities/_display.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/utilities/_display.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/utilities/_embed.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/utilities/_embed.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/utilities/_flex.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/utilities/_flex.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/utilities/_float.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/utilities/_float.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/utilities/_position.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/utilities/_position.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/utilities/_screenreaders.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/utilities/_screenreaders.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/utilities/_shadows.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/utilities/_shadows.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/utilities/_sizing.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/utilities/_sizing.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/utilities/_spacing.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/utilities/_spacing.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/utilities/_text.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/utilities/_text.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/1-frameworks/bootstrap/source/utilities/_visibility.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/1-frameworks/bootstrap/source/utilities/_visibility.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/2-plugins/_index.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/2-plugins/_index.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/3-base/_base.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/3-base/_base.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/3-base/_index.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/3-base/_index.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/3-base/_mixins.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/3-base/_mixins.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/3-base/_variables.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/3-base/_variables.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/4-modules/_index.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/4-modules/_index.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/5-layout/_columns.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/5-layout/_columns.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/5-layout/_containers.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/5-layout/_containers.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/5-layout/_extends.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/5-layout/_extends.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/5-layout/_footer.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/5-layout/_footer.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/5-layout/_header.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/5-layout/_header.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/5-layout/_index.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/5-layout/_index.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/5-layout/_layout.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/5-layout/_layout.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/assets/scss/main.scss",
+      "PackagePath": "staticwebassets/Tema/assets/scss/main.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/category.html",
+      "PackagePath": "staticwebassets/Tema/category.html"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/docs.html",
+      "PackagePath": "staticwebassets/Tema/docs.html"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/gulpfile.js",
+      "PackagePath": "staticwebassets/Tema/gulpfile.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/index.html",
+      "PackagePath": "staticwebassets/Tema/index.html"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/package.json",
+      "PackagePath": "staticwebassets/Tema/package.json"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/css/basic.css",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/css/basic.css"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/css/bootstrap-fileupload.min.css",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/css/bootstrap-fileupload.min.css"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/css/bootstrap-social.css",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/css/bootstrap-social.css"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/css/bootstrap.css",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/css/custom.css",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/css/custom.css"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/css/error.css",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/css/error.css"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/css/font-awesome.css",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/css/font-awesome.css"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/css/invoice.css",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/css/invoice.css"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/css/prettyPhoto.css",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/css/prettyPhoto.css"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/css/pricing.css",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/css/pricing.css"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/css/wizard/jquery.steps.css",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/css/wizard/jquery.steps.css"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/css/wizard/normalize.css",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/css/wizard/normalize.css"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/css/wizard/wizardMain.css",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/css/wizard/wizardMain.css"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/fonts/FontAwesome.otf",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/fonts/FontAwesome.otf"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/fonts/fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/fonts/fontawesome-webfont.eot"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/fonts/fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/fonts/fontawesome-webfont.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/fonts/fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/fonts/fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/fonts/fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/fonts/fontawesome-webfont.woff"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/fonts/glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/fonts/glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/fonts/glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/fonts/glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/fonts/glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/fonts/glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/fonts/glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/fonts/glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/img/demoUpload.jpg",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/img/demoUpload.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/img/logo-invoice.png",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/img/logo-invoice.png"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/img/portfolio/b.jpg",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/img/portfolio/b.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/img/portfolio/c.png",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/img/portfolio/c.png"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/img/portfolio/d.jpg",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/img/portfolio/d.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/img/portfolio/e.jpg",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/img/portfolio/e.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/img/portfolio/g.jpg",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/img/portfolio/g.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/img/portfolio/h.jpg",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/img/portfolio/h.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/img/prettyPhoto/dark_rounded/btnNext.png",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/img/prettyPhoto/dark_rounded/btnNext.png"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/img/prettyPhoto/dark_rounded/btnPrevious.png",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/img/prettyPhoto/dark_rounded/btnPrevious.png"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/img/prettyPhoto/dark_rounded/contentPattern.png",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/img/prettyPhoto/dark_rounded/contentPattern.png"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/img/prettyPhoto/dark_rounded/default_thumbnail.gif",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/img/prettyPhoto/dark_rounded/default_thumbnail.gif"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/img/prettyPhoto/dark_rounded/loader.gif",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/img/prettyPhoto/dark_rounded/loader.gif"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/img/prettyPhoto/dark_rounded/sprite.png",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/img/prettyPhoto/dark_rounded/sprite.png"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/img/prettyPhoto/dark_square/btnNext.png",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/img/prettyPhoto/dark_square/btnNext.png"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/img/prettyPhoto/dark_square/btnPrevious.png",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/img/prettyPhoto/dark_square/btnPrevious.png"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/img/prettyPhoto/dark_square/contentPattern.png",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/img/prettyPhoto/dark_square/contentPattern.png"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/img/prettyPhoto/dark_square/default_thumbnail.gif",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/img/prettyPhoto/dark_square/default_thumbnail.gif"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/img/prettyPhoto/dark_square/loader.gif",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/img/prettyPhoto/dark_square/loader.gif"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/img/prettyPhoto/dark_square/sprite.png",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/img/prettyPhoto/dark_square/sprite.png"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/img/prettyPhoto/default/default_thumb.png",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/img/prettyPhoto/default/default_thumb.png"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/img/prettyPhoto/default/loader.gif",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/img/prettyPhoto/default/loader.gif"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/img/prettyPhoto/default/sprite.png",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/img/prettyPhoto/default/sprite.png"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/img/prettyPhoto/default/sprite_next.png",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/img/prettyPhoto/default/sprite_next.png"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/img/prettyPhoto/default/sprite_prev.png",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/img/prettyPhoto/default/sprite_prev.png"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/img/prettyPhoto/default/sprite_x.png",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/img/prettyPhoto/default/sprite_x.png"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/img/prettyPhoto/default/sprite_y.png",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/img/prettyPhoto/default/sprite_y.png"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/img/prettyPhoto/facebook/btnNext.png",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/img/prettyPhoto/facebook/btnNext.png"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/img/prettyPhoto/facebook/btnPrevious.png",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/img/prettyPhoto/facebook/btnPrevious.png"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/img/prettyPhoto/facebook/contentPatternBottom.png",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/img/prettyPhoto/facebook/contentPatternBottom.png"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/img/prettyPhoto/facebook/contentPatternLeft.png",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/img/prettyPhoto/facebook/contentPatternLeft.png"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/img/prettyPhoto/facebook/contentPatternRight.png",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/img/prettyPhoto/facebook/contentPatternRight.png"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/img/prettyPhoto/facebook/contentPatternTop.png",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/img/prettyPhoto/facebook/contentPatternTop.png"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/img/prettyPhoto/facebook/default_thumbnail.gif",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/img/prettyPhoto/facebook/default_thumbnail.gif"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/img/prettyPhoto/facebook/loader.gif",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/img/prettyPhoto/facebook/loader.gif"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/img/prettyPhoto/facebook/sprite.png",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/img/prettyPhoto/facebook/sprite.png"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/img/prettyPhoto/light_rounded/btnNext.png",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/img/prettyPhoto/light_rounded/btnNext.png"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/img/prettyPhoto/light_rounded/btnPrevious.png",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/img/prettyPhoto/light_rounded/btnPrevious.png"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/img/prettyPhoto/light_rounded/default_thumbnail.gif",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/img/prettyPhoto/light_rounded/default_thumbnail.gif"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/img/prettyPhoto/light_rounded/loader.gif",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/img/prettyPhoto/light_rounded/loader.gif"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/img/prettyPhoto/light_rounded/sprite.png",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/img/prettyPhoto/light_rounded/sprite.png"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/img/prettyPhoto/light_square/btnNext.png",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/img/prettyPhoto/light_square/btnNext.png"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/img/prettyPhoto/light_square/btnPrevious.png",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/img/prettyPhoto/light_square/btnPrevious.png"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/img/prettyPhoto/light_square/default_thumbnail.gif",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/img/prettyPhoto/light_square/default_thumbnail.gif"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/img/prettyPhoto/light_square/loader.gif",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/img/prettyPhoto/light_square/loader.gif"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/img/prettyPhoto/light_square/sprite.png",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/img/prettyPhoto/light_square/sprite.png"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/img/slideshow/1.jpg",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/img/slideshow/1.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/img/slideshow/2.jpg",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/img/slideshow/2.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/img/slideshow/3.jpg",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/img/slideshow/3.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/img/user.gif",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/img/user.gif"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/img/user.png",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/img/user.png"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/js/bootstrap-fileupload.js",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/js/bootstrap-fileupload.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/js/bootstrap.js",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/js/custom.js",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/js/custom.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/js/galleryCustom.js",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/js/galleryCustom.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/js/jquery-1.10.2.js",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/js/jquery-1.10.2.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/js/jquery.metisMenu.js",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/js/jquery.metisMenu.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/js/jquery.mixitup.min.js",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/js/jquery.mixitup.min.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/js/jquery.prettyPhoto.js",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/js/jquery.prettyPhoto.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/js/wizard/jquery.cookie-1.3.1.js",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/js/wizard/jquery.cookie-1.3.1.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/js/wizard/jquery.steps.js",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/js/wizard/jquery.steps.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/assets/js/wizard/modernizr-2.6.2.min.js",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/assets/js/wizard/modernizr-2.6.2.min.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/blank.html",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/blank.html"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/buttons.html",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/buttons.html"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/component.html",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/component.html"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/error.html",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/error.html"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/form-advance.html",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/form-advance.html"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/form.html",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/form.html"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/gallery.html",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/gallery.html"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/grid.html",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/grid.html"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/icons.html",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/icons.html"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/index.html",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/index.html"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/invoice.html",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/invoice.html"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/login.html",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/login.html"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/message-task.html",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/message-task.html"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/notification.html",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/notification.html"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/panel-tabs.html",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/panel-tabs.html"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/pricing.html",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/pricing.html"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/progress.html",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/progress.html"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/social.html",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/social.html"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/table.html",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/table.html"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/typography.html",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/typography.html"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/advance-admin/wizard.html",
+      "PackagePath": "staticwebassets/WriterTema/advance-admin/wizard.html"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/help-docs/assets/css/bootstrap.css",
+      "PackagePath": "staticwebassets/WriterTema/help-docs/assets/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/help-docs/assets/css/style.css",
+      "PackagePath": "staticwebassets/WriterTema/help-docs/assets/css/style.css"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/help-docs/assets/img/help-img.png",
+      "PackagePath": "staticwebassets/WriterTema/help-docs/assets/img/help-img.png"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/help-docs/assets/plugins/bootstrap.js",
+      "PackagePath": "staticwebassets/WriterTema/help-docs/assets/plugins/bootstrap.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/help-docs/assets/plugins/jquery-1.10.2.js",
+      "PackagePath": "staticwebassets/WriterTema/help-docs/assets/plugins/jquery-1.10.2.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/help-docs/assets/plugins/jquery.easing.min.js",
+      "PackagePath": "staticwebassets/WriterTema/help-docs/assets/plugins/jquery.easing.min.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/WriterTema/help-docs/index.html",
+      "PackagePath": "staticwebassets/WriterTema/help-docs/index.html"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.BaseIdentity.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.build.BaseIdentity.props",
+      "PackagePath": "build\\BaseIdentity.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.BaseIdentity.props",
+      "PackagePath": "buildMultiTargeting\\BaseIdentity.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.BaseIdentity.props",
+      "PackagePath": "buildTransitive\\BaseIdentity.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
