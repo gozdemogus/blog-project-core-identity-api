@@ -6,10 +6,10 @@
             <div class="card border-0 mb-4 box-shadow h-xl-300">
                 @if (Model[0] != null)
                 {
-                    <div style="background-image: url(/Tema/assets/img/demo/1.jpg); height: 150px;    background-size: cover;    background-repeat: no-repeat;"></div>
+                    <div style="background-image: url(@Model[0].Image); height: 150px;    background-size: cover;    background-repeat: no-repeat;"></div>
                     <div class="card-body px-0 pb-0 d-flex flex-column align-items-start">
                         <h2 class="h4 font-weight-bold">
-                            <a class="text-dark" href="~/Tema/article.html">@Model[0].Header</a>
+                            <a class="text-dark" href="/Blog/Content/@Model[0].Id">@Model[0].Header</a>
                         </h2>
                         <p class="card-text">
                             @Model[0].Entry

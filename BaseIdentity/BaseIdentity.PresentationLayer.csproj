@@ -41,6 +41,23 @@
     <None Remove="Views\Writer\" />
     <None Remove="Views\Shared\Components\PopularMusic\" />
     <None Remove="Newtonsoft.Json" />
+    <None Remove="FluentValidation.AspNetCore" />
+    <None Remove="Views\Shared\Components\Comment\" />
+    <None Remove="Views\Shared\Components\Replies\" />
+    <None Remove="Areas\" />
+    <None Remove="Areas\Admin\" />
+    <None Remove="Areas\Admin\Controllers\" />
+    <None Remove="Areas\Admin\Views\" />
+    <None Remove="Areas\Admin\Views\Admin\" />
+    <None Remove="Areas\Writer\" />
+    <None Remove="Areas\Writer\Views\" />
+    <None Remove="Areas\Writer\Controllers\" />
+    <None Remove="Areas\Writer\ViewComponents\" />
+    <None Remove="Areas\Writer\Views\Shared\" />
+    <None Remove="Areas\Writer\Views\Shared\Components\" />
+    <None Remove="Areas\Writer\Views\Shared\Components\User\" />
+    <None Remove="Areas\Models\" />
+    <None Remove="Views\Shared\Components\AddComment\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.17" />
@@ -56,6 +73,7 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.17" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.17" />
     <PackageReference Include="Newtonsoft.Json" Version="10.0.1" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.2.2" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Register\" />
@@ -74,6 +92,22 @@
     <Folder Include="Views\Shared\Components\PopularBlogsByCategory\" />
     <Folder Include="Views\Writer\" />
     <Folder Include="Views\Shared\Components\PopularMusic\" />
+    <Folder Include="Views\Shared\Components\Comment\" />
+    <Folder Include="Views\Shared\Components\Replies\" />
+    <Folder Include="Areas\" />
+    <Folder Include="Areas\Admin\" />
+    <Folder Include="Areas\Admin\Controllers\" />
+    <Folder Include="Areas\Admin\Views\" />
+    <Folder Include="Areas\Admin\Views\Admin\" />
+    <Folder Include="Areas\Writer\" />
+    <Folder Include="Areas\Writer\Views\" />
+    <Folder Include="Areas\Writer\Controllers\" />
+    <Folder Include="Areas\Writer\ViewComponents\" />
+    <Folder Include="Areas\Writer\Views\Shared\" />
+    <Folder Include="Areas\Writer\Views\Shared\Components\" />
+    <Folder Include="Areas\Writer\Views\Shared\Components\User\" />
+    <Folder Include="Areas\Models\" />
+    <Folder Include="Views\Shared\Components\AddComment\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="wwwroot\Tema\.github\FUNDING.yml" />

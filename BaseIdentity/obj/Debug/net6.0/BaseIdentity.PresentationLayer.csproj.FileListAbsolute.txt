@@ -223,3 +223,7 @@
 /Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/obj/Debug/net6.0/BaseIdentity.pdb
 /Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/obj/Debug/net6.0/BaseIdentity.PresentationLayer.genruntimeconfig.cache
 /Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/obj/Debug/net6.0/ref/BaseIdentity.dll
+/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/bin/Debug/net6.0/FluentValidation.dll
+/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/bin/Debug/net6.0/FluentValidation.AspNetCore.dll
+/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/bin/Debug/net6.0/FluentValidation.DependencyInjectionExtensions.dll
+/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/obj/Debug/net6.0/BaseIdentity.MvcApplicationPartsAssemblyInfo.cs

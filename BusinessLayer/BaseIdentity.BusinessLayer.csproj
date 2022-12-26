@@ -11,4 +11,10 @@
     <ProjectReference Include="..\BaseIdentity.DataAccessLayer\BaseIdentity.DataAccessLayer.csproj" />
     <ProjectReference Include="..\EntityLayer\BaseIdentity.EntityLayer.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <None Remove="ValidationRules\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ValidationRules\" />
+  </ItemGroup>
 </Project>

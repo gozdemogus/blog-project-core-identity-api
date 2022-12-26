@@ -213,6 +213,14 @@ namespace BaseIdentity.DataAccessLayer.Migrations
             modelBuilder.Entity("BaseIdentity.EntityLayer.Concrete.Comment", b =>
                 {
                     b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("AppUserId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("BlogId")
                         .HasColumnType("int");
 
                     b.Property<string>("Content")
@@ -224,7 +232,40 @@ namespace BaseIdentity.DataAccessLayer.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Comment");
+                    b.HasIndex("AppUserId");
+
+                    b.HasIndex("BlogId");
+
+                    b.ToTable("Comments");
+                });
+
+            modelBuilder.Entity("BaseIdentity.EntityLayer.Concrete.Reply", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("AppUserId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("CommentId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Content")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("date")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AppUserId");
+
+                    b.HasIndex("CommentId");
+
+                    b.ToTable("Replies");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<int>", b =>
@@ -345,13 +386,40 @@ namespace BaseIdentity.DataAccessLayer.Migrations
 
             modelBuilder.Entity("BaseIdentity.EntityLayer.Concrete.Comment", b =>
                 {
+                    b.HasOne("BaseIdentity.EntityLayer.Concrete.AppUser", "AppUser")
+                        .WithMany("Comments")
+                        .HasForeignKey("AppUserId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
                     b.HasOne("BaseIdentity.EntityLayer.Concrete.Blog", "Blog")
                         .WithMany("Comments")
-                        .HasForeignKey("Id")
+                        .HasForeignKey("BlogId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.Navigation("AppUser");
+
                     b.Navigation("Blog");
+                });
+
+            modelBuilder.Entity("BaseIdentity.EntityLayer.Concrete.Reply", b =>
+                {
+                    b.HasOne("BaseIdentity.EntityLayer.Concrete.AppUser", "AppUser")
+                        .WithMany("Replies")
+                        .HasForeignKey("AppUserId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.HasOne("BaseIdentity.EntityLayer.Concrete.Comment", "Comment")
+                        .WithMany("Replies")
+                        .HasForeignKey("CommentId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AppUser");
+
+                    b.Navigation("Comment");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<int>", b =>
@@ -408,6 +476,10 @@ namespace BaseIdentity.DataAccessLayer.Migrations
             modelBuilder.Entity("BaseIdentity.EntityLayer.Concrete.AppUser", b =>
                 {
                     b.Navigation("Blogs");
+
+                    b.Navigation("Comments");
+
+                    b.Navigation("Replies");
                 });
 
             modelBuilder.Entity("BaseIdentity.EntityLayer.Concrete.Blog", b =>
@@ -418,6 +490,11 @@ namespace BaseIdentity.DataAccessLayer.Migrations
             modelBuilder.Entity("BaseIdentity.EntityLayer.Concrete.Category", b =>
                 {
                     b.Navigation("Blogs");
+                });
+
+            modelBuilder.Entity("BaseIdentity.EntityLayer.Concrete.Comment", b =>
+                {
+                    b.Navigation("Replies");
                 });
 #pragma warning restore 612, 618
         }

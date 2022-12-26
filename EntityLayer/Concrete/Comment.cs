@@ -8,14 +8,21 @@ namespace BaseIdentity.EntityLayer.Concrete
 		public Comment()
 		{
 		}
+
 		[Key]
 		public int Id { get; set; }
 		public string Content { get; set; }
 		public DateTime Date { get; set; }
 
 
-        public virtual Blog Blog { get; set; }
+        public int BlogId { get; set; }
+        public Blog Blog { get; set; }
 
+        public List<Reply> Replies { get; set; }
+
+
+        public int AppUserId { get; set; }
+        public AppUser AppUser { get; set; }
     }
 }
 

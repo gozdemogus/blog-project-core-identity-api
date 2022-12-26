@@ -13,7 +13,7 @@
                     </p>
 
                     <div class="d-flex align-items-center">
-                       <a href="/Writer/Index/@Model.AppUserId"> <img class="rounded-circle" src="@Model.AppUser.Image" width="70"></a>
+                        <a href="/Writer/Index/@Model.AppUserId"> <img class="rounded-circle" src="@Model.AppUser.Image" width="70"></a>
                         <small class="ml-2">
                             @Model.AppUser.Name @Model.AppUser.Surname <span class="text-muted d-block">@Model.Date &middot; @Model.MinsToRead min. read</span>
                         </small>
@@ -68,6 +68,9 @@
             @await Component.InvokeAsync("BlogContentMail")
 
         </div>
+        @await Component.InvokeAsync("Comment", Model.Id)
+        @await Component.InvokeAsync("AddComment")
+
     </div>
 </div>
 

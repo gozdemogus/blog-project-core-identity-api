@@ -1,0 +1,77 @@
+﻿@model Blog
+
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="col-md-12 col-sm-12 col-xs-12">
+    <div class="panel panel-info">
+        <div class="panel-heading">
+            Edit Content
+        </div>
+        <div class="panel-body">
+            <form method="post">
+                <div class="form-group">
+                    <label>Header</label>
+                    <input class="form-control" asp-for="Header" type="text">
+                    <p class="help-block">Short but eye catching</p>
+                </div>
+
+                <div class="form-group">
+                    <label>Entry Text</label>
+                    <input class="form-control" asp-for="Entry" type="text">
+                    <p class="help-block">Think as summary</p>
+                </div>
+
+                <div class="form-group">
+                    <label>Minutes to Read</label>
+                    <input class="form-control" asp-for="MinsToRead" type="text">
+                </div>
+
+                <div class="form-group">
+                    <label>Image</label>
+                    <input class="form-control" asp-for="Image" type="text">
+                    <p class="help-block">For cover</p>
+                </div>
+
+                <div class="form-group">
+                    <label>Content</label>
+                    <textarea asp-for="Content" class="form-control" rows="3"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>Content 2</label>
+                    <textarea asp-for="Content2" class="form-control" rows="3"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>Image 2</label>
+                    <input class="form-control" asp-for="Image2" type="text">
+                </div>
+
+                <div class="form-group">
+                    <label>Content 3</label>
+                    <textarea asp-for="Content3" class="form-control" rows="3"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>Image 3</label>
+                    <input class="form-control" asp-for="Image3" type="text">
+                </div>
+
+                <div class="form-group">
+                    <label>Category</label>
+                    <input class="form-control" asp-for="CategoryId" type="text">
+                </div>
+
+                <div class="form-group">
+                    <label>Image 3</label>
+                    <input class="form-control" asp-for="Image3" type="text">
+                </div>
+
+                <button class="btn btn-warning">Update</button>
+
+            </form>
+        </div>
+    </div>
+</div>

@@ -16,6 +16,54 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Areas/Admin/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQWRtaW4vSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Areas/Writer/Views/AccountPanel/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvV3JpdGVyL1ZpZXdzL0FjY291bnRQYW5lbC9DaGFuZ2VQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Areas/Writer/Views/AccountPanel/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvV3JpdGVyL1ZpZXdzL0FjY291bnRQYW5lbC9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Areas/Writer/Views/AccountPanel/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvV3JpdGVyL1ZpZXdzL0FjY291bnRQYW5lbC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Areas/Writer/Views/Content/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvV3JpdGVyL1ZpZXdzL0NvbnRlbnQvQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Areas/Writer/Views/Content/Content.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvV3JpdGVyL1ZpZXdzL0NvbnRlbnQvQ29udGVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Areas/Writer/Views/Content/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvV3JpdGVyL1ZpZXdzL0NvbnRlbnQvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Areas/Writer/Views/Content/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvV3JpdGVyL1ZpZXdzL0NvbnRlbnQvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Areas/Writer/Views/ProfilePanel/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvV3JpdGVyL1ZpZXdzL1Byb2ZpbGVQYW5lbC9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Areas/Writer/Views/Shared/Components/User/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvV3JpdGVyL1ZpZXdzL1NoYXJlZC9Db21wb25lbnRzL1VzZXIvRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Areas/Writer/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvV3JpdGVyL1ZpZXdzL19WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Views/Blog/Content.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmxvZy9Db250ZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -44,6 +92,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVnaXN0ZXIvU2lnblVwLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Views/Shared/Components/AddComment/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvQWRkQ29tbWVudC9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Views/Shared/Components/BigBlog/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvQmlnQmxvZy9EZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -54,6 +106,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Views/Shared/Components/BlogContentMail/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvQmxvZ0NvbnRlbnRNYWlsL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Views/Shared/Components/Comment/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvQ29tbWVudC9EZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Views/Shared/Components/Header/Default.cshtml]
@@ -80,8 +136,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvUG9wdWxhck11c2ljL0RlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Views/Shared/Components/Replies/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvUmVwbGllcy9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19BZG1pbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Views/Shared/_Layout.cshtml]

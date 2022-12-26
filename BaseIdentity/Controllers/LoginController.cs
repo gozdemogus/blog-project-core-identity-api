@@ -25,6 +25,13 @@ namespace BaseIdentity.PresentationLayer.Controllers
         }
 
         [HttpGet]
+        public IActionResult Index()
+        {
+           return RedirectToAction("SignIn","Login");
+        }
+
+
+        [HttpGet]
         public IActionResult SignIn()
         {
             return View();

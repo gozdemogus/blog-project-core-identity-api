@@ -22,7 +22,7 @@ namespace WebApplication1.Controllers
             _logger = logger;
         }
 
-        public async Task<IActionResult> IndexAsync()
+        public IActionResult Index()
         {
             return View();
         }

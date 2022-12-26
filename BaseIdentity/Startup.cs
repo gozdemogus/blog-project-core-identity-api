@@ -31,31 +31,25 @@ namespace WebApplication1
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddScoped<BlogController>();
-            services.AddDbContext<Context>();
-            services.AddIdentity<AppUser, AppRole>(x =>
-            {
-                x.Password.RequireUppercase = false;
-                x.Password.RequireNonAlphanumeric = false;
-            })
-                .AddEntityFrameworkStores<Context>()
-                .AddTokenProvider<DataProtectorTokenProvider<AppUser>>(TokenOptions.DefaultProvider);
 
+          
+            services.AddDbContext<Context>();
+            services.AddScoped<BlogController>();
+            services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<Context>().AddTokenProvider<DataProtectorTokenProvider<AppUser>>(TokenOptions.DefaultProvider); ;
+         
             services.AddControllersWithViews();
-            services.AddSession();
             services.AddMvc(config =>
             {
-                var policy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();
+                var policy = new AuthorizationPolicyBuilder()
+                .RequireAuthenticatedUser()
+                .Build();
                 config.Filters.Add(new AuthorizeFilter(policy));
             });
-            services.AddMvc();
-            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(x =>
+            services.ConfigureApplicationCookie(options =>
             {
-                x.LoginPath = "/Login/Index";
+                options.LoginPath = "/Login/Index";
             });
         }
-
-
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -70,34 +64,36 @@ namespace WebApplication1
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
-
-            app.UseStatusCodePages();
-            app.UseStatusCodePagesWithReExecute("/Error/Index", "?code={0}");
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-            //app.UseSession();
 
             app.UseAuthentication();
 
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllerRoute(
+                    name: "default",
+                    pattern: "{controller=Home}/{action=Index}/{id?}");
+            });
+
             app.UseEndpoints(endpoints =>
             {
 
                 endpoints.MapControllerRoute(
-                    name: "areas",
-                    pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+                  name: "areas",
+                  pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
+                );
 
-                endpoints.MapControllerRoute(
-                    name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
-
-                endpoints.MapControllerRoute(
-       name: "login",
-       pattern: "Account/Login/*",
-       defaults: new { controller = "Home", action = "Index" });
+            
             });
+
+           
+             
+       
         }
     }
 }
