@@ -156,7 +156,11 @@
 /Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/bin/Debug/net6.0/BaseIdentity.runtimeconfig.json
 /Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/bin/Debug/net6.0/BaseIdentity.dll
 /Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/bin/Debug/net6.0/BaseIdentity.pdb
+/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/bin/Debug/net6.0/FluentValidation.dll
+/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/bin/Debug/net6.0/FluentValidation.AspNetCore.dll
+/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/bin/Debug/net6.0/FluentValidation.DependencyInjectionExtensions.dll
 /Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/bin/Debug/net6.0/Humanizer.dll
+/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/bin/Debug/net6.0/MailKit.dll
 /Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 /Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll
 /Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
@@ -171,7 +175,10 @@
 /Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 /Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
 /Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/bin/Debug/net6.0/MimeKit.dll
+/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/bin/Debug/net6.0/NETCore.MailKit.dll
 /Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/bin/Debug/net6.0/Newtonsoft.Json.dll
+/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/bin/Debug/net6.0/BouncyCastle.Crypto.dll
 /Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
 /Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/bin/Debug/net6.0/System.Drawing.Common.dll
 /Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
@@ -206,6 +213,7 @@
 /Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/obj/Debug/net6.0/BaseIdentity.PresentationLayer.AssemblyInfoInputs.cache
 /Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/obj/Debug/net6.0/BaseIdentity.PresentationLayer.AssemblyInfo.cs
 /Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/obj/Debug/net6.0/BaseIdentity.PresentationLayer.csproj.CoreCompileInputs.cache
+/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/obj/Debug/net6.0/BaseIdentity.MvcApplicationPartsAssemblyInfo.cs
 /Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/obj/Debug/net6.0/BaseIdentity.MvcApplicationPartsAssemblyInfo.cache
 /Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/obj/Debug/net6.0/BaseIdentity.PresentationLayer.RazorAssemblyInfo.cache
 /Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/obj/Debug/net6.0/BaseIdentity.PresentationLayer.RazorAssemblyInfo.cs
@@ -223,7 +231,3 @@
 /Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/obj/Debug/net6.0/BaseIdentity.pdb
 /Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/obj/Debug/net6.0/BaseIdentity.PresentationLayer.genruntimeconfig.cache
 /Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/obj/Debug/net6.0/ref/BaseIdentity.dll
-/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/bin/Debug/net6.0/FluentValidation.dll
-/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/bin/Debug/net6.0/FluentValidation.AspNetCore.dll
-/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/bin/Debug/net6.0/FluentValidation.DependencyInjectionExtensions.dll
-/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/obj/Debug/net6.0/BaseIdentity.MvcApplicationPartsAssemblyInfo.cs

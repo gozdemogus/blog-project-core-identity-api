@@ -36,7 +36,7 @@ namespace WebApplication1
             services.AddDbContext<Context>();
             services.AddScoped<BlogController>();
             services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<Context>().AddTokenProvider<DataProtectorTokenProvider<AppUser>>(TokenOptions.DefaultProvider); ;
-         
+            services.Configure<DataProtectionTokenProviderOptions>(opts => opts.TokenLifespan = TimeSpan.FromHours(10));
             services.AddControllersWithViews();
             services.AddMvc(config =>
             {

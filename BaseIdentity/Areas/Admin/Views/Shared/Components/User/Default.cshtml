@@ -1,0 +1,14 @@
+﻿@model AppUser
+
+<li>
+    <div class="user-img-div" style="display: grid; place-items: center; ">
+        <img src="@Model.Image" class="img-thumbnail" />
+
+        <div class="inner-text">
+        @Model.Name @Model.Surname 
+            <br />
+            <small>@Model.UserName</small>
+        </div>
+    </div>
+
+</li>

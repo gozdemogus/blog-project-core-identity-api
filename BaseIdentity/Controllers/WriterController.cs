@@ -60,7 +60,11 @@ namespace BaseIdentity.PresentationLayer.Controllers
 
         }
 
-
+        public async Task<ActionResult<AppUser>> GetUser()
+        {
+            var user = await _userManager.GetUserAsync(User);
+            return user;
+        }
     }
 }
 

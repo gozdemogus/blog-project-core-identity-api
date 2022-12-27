@@ -1,18 +1,51 @@
-﻿<div class="border p-5 bg-lightblue">
+﻿@model SendMailViewModel
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<div class="border p-5 bg-lightblue">
     <div class="row justify-content-between">
         <div class="col-md-5 mb-2 mb-md-0">
-            <h5 class="font-weight-bold secondfont">Become a member</h5>
-            Get the latest news right in your inbox. We never spam!
+            <h5 class="font-weight-bold secondfont" id="text1">Become a member</h5>
+            <h6 id="text3"> Get the latest news right in your inbox. We never spam!</h6>
+            <h5 style="display: none;" class="secondfont" id="text2">Congratulations! You have been subscribed.</h5>
         </div>
         <div class="col-md-7">
-            <div class="row">
-                <div class="col-md-12">
-                    <input type="text" class="form-control" placeholder="Enter your e-mail address">
+            <form method="post">
+                <div class="row">
+                    <div class="col-md-12">
+                        <input id="receiver" type="text" class="form-control" placeholder="Enter your e-mail address">
+                    </div>
+                    <div class="col-md-12 mt-2">
+                        <button id="subButton" type="submit" class="btn btn-success btn-block">Subscribe</button>
+                    </div>
                 </div>
-                <div class="col-md-12 mt-2">
-                    <button type="submit" class="btn btn-success btn-block">Subscribe</button>
-                </div>
-            </div>
+            </form>
         </div>
     </div>
 </div>
+<br />
+<br />
+
+<script>$(document).ready(function () {
+    $('#subButton').click(function (e) {
+            e.preventDefault();
+
+            var receiver = $('#receiver').val();
+
+            $.ajax({
+                url: '/Blog/SendMail',
+                type: 'POST',
+                data: { receiver: receiver },
+
+                success: function (response) {
+                    $('#receiver').hide();
+                    $('#text1').hide();
+                    $('#text3').hide();
+                    $('#subButton').hide();
+                    $('#text2').show();
+                },
+                error: function (error) {
+
+                }
+            });
+        });
+    });</script>

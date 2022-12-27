@@ -56,8 +56,14 @@
     <None Remove="Areas\Writer\Views\Shared\" />
     <None Remove="Areas\Writer\Views\Shared\Components\" />
     <None Remove="Areas\Writer\Views\Shared\Components\User\" />
-    <None Remove="Areas\Models\" />
     <None Remove="Views\Shared\Components\AddComment\" />
+    <None Remove="MailKit" />
+    <None Remove="MimeKit" />
+    <None Remove="NETCore.MailKit" />
+    <None Remove="Areas\Admin\Views\Role\" />
+    <None Remove="Areas\Admin\Views\Category\" />
+    <None Remove="Areas\Writer\Models\" />
+    <None Remove="Views\Password\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.17" />
@@ -74,6 +80,9 @@
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.17" />
     <PackageReference Include="Newtonsoft.Json" Version="10.0.1" />
     <PackageReference Include="FluentValidation.AspNetCore" Version="11.2.2" />
+    <PackageReference Include="MimeKit" Version="3.4.3" />
+    <PackageReference Include="MailKit" Version="3.4.2" />
+    <PackageReference Include="NETCore.MailKit" Version="2.1.0" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Register\" />
@@ -106,8 +115,11 @@
     <Folder Include="Areas\Writer\Views\Shared\" />
     <Folder Include="Areas\Writer\Views\Shared\Components\" />
     <Folder Include="Areas\Writer\Views\Shared\Components\User\" />
-    <Folder Include="Areas\Models\" />
     <Folder Include="Views\Shared\Components\AddComment\" />
+    <Folder Include="Areas\Admin\Views\Role\" />
+    <Folder Include="Areas\Admin\Views\Category\" />
+    <Folder Include="Areas\Writer\Models\" />
+    <Folder Include="Views\Password\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="wwwroot\Tema\.github\FUNDING.yml" />

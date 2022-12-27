@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using BaseIdentity.DataAccessLayer.Concrete;
 using BaseIdentity.EntityLayer.Concrete;
+using BaseIdentity.PresentationLayer.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -13,6 +15,13 @@ namespace BaseIdentity.PresentationLayer.Controllers
 {
     public class CommentController : Controller
     {
+        private readonly UserManager<AppUser> _userManager;
+
+        public CommentController(UserManager<AppUser> userManager)
+        {
+            _userManager = userManager;
+        }
+
         // GET: /<controller>/
         public IActionResult Index(int id)
         {
@@ -24,9 +33,26 @@ namespace BaseIdentity.PresentationLayer.Controllers
 
                 return View(comments);
             }
-
-
         }
+
+        public async void AddComment(SendCommentViewModel sendCommentViewModel)
+        {
+          //  var user = await _userManager.FindByNameAsync(User.Identity.Name);
+          //  var userId = user.Id;
+            using (var context = new Context())
+            {
+          
+                Comment comment = new Comment();
+                comment.AppUserId = sendCommentViewModel.UserInfo;
+                comment.Content = sendCommentViewModel.CommentText;
+                comment.Date = DateTime.Now;
+                comment.BlogId = sendCommentViewModel.CurrentPageId;
+                context.Comments.Add(comment);
+                context.SaveChanges();
+            }
+            return;
+        }
+
     }
 }
 

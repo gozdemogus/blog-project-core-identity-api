@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
+
 using System.Threading.Tasks;
 using BaseIdentity.DataAccessLayer.Concrete;
 using BaseIdentity.EntityLayer.Concrete;
@@ -9,7 +10,9 @@ using BaseIdentity.PresentationLayer.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using MimeKit;
 using Newtonsoft.Json;
+using System.Net.Mail;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -73,7 +76,43 @@ namespace BaseIdentity.PresentationLayer.Controllers
         }
 
 
-      
+        public void SendMail(SendMailViewModel sendMailViewModel)
+        {
+            string mailKey = _configuration["MailKey"];
+
+            MimeMessage mimeMessage = new MimeMessage();
+
+            MailboxAddress mailboxAddressFrom = new MailboxAddress("Bloggy", "goezdem6@gmail.com");
+            mimeMessage.From.Add(mailboxAddressFrom);
+
+            MailboxAddress mailboxAddressTo = new MailboxAddress("User", sendMailViewModel.Receiver);
+            mimeMessage.To.Add(mailboxAddressTo);
+
+            var bodyBuilder = new BodyBuilder();
+        //    bodyBuilder.TextBody = emailcode;
+            mimeMessage.Body = bodyBuilder.ToMessageBody();
+
+            mimeMessage.Subject = "Mail Subscription";
+
+            var body = new TextPart("plain")
+            {
+                Text = "Your membership subscription has been received. Thank you."
+            };
+
+            mimeMessage.Body = body;
+
+            using (var smtp = new MailKit.Net.Smtp.SmtpClient())
+            {
+                smtp.Connect("smtp.gmail.com", 587, false);
+                smtp.Authenticate("goezdem6@gmail.com", mailKey); //kod
+                smtp.Send(mimeMessage);
+                smtp.Disconnect(true);
+            }
+
+           
+        }
+
+
     }
 }
 

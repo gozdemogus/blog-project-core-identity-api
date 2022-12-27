@@ -18,13 +18,13 @@ namespace BaseIdentity.PresentationLayer.Models
         public string Surname { get; set; }
 
         [Required(ErrorMessage = "Mail boş geçilemez!")]
-        public string Mail { get; set; }
+        public string Email { get; set; }
 
         [Required(ErrorMessage = "Şifre boş geçilemez!")]
         public string Password { get; set; }
 
         [Required(ErrorMessage = "Şifre tekrar boş geçilemez!")]
-        public string ConfirmPassword { get; set; }
+        public string PasswordConfirm { get; set; }
     }
 }
 

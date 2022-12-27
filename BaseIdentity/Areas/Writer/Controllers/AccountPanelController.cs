@@ -1,13 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Security.Policy;
 using System.Threading.Tasks;
 using BaseIdentity.EntityLayer.Concrete;
 using BaseIdentity.PresentationLayer.Areas.Models;
+using BaseIdentity.PresentationLayer.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
+using MimeKit;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -18,13 +22,14 @@ namespace BaseIdentity.PresentationLayer.Areas.Writer.Controllers
     public class AccountPanelController : Controller
     {
         private readonly UserManager<AppUser> _userManager;
+        private readonly IConfiguration _configuration;
 
-        public AccountPanelController(UserManager<AppUser> userManager)
+        public AccountPanelController(UserManager<AppUser> userManager, IConfiguration configuration)
         {
             _userManager = userManager;
+            _configuration = configuration;
+
         }
-
-
 
         // GET: /<controller>/
         public async Task<IActionResult> Index()

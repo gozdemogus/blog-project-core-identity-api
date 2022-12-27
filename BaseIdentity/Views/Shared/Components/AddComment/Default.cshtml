@@ -1,17 +1,50 @@
-﻿<div id="comments-sec">
-    <h4><strong>Compose Support Ticket </strong></h4>
-    <hr />
+﻿@model SendCommentViewModel
 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<div class="border p-5 bg-lightblue">
 
-    <div class="form-group  ">
-        <label>Please Write a Subject Line</label>
-        <input type="text" class="form-control" required="required" placeholder="Enter Subject Of Ticket" />
-    </div>
-    <div class="form-group ">
-        <label>Please Enter Issue</label>
-        <textarea class="form-control" rows="8"></textarea>
-    </div>
-    <div class="form-group">
-        <button type="submit" class="btn btn-success">Compose &amp; Send Ticket</button>
+    <div id="comments-sec">
+        <form method="post">
+            <h4><strong>Comments </strong></h4>
+            <hr />
+            <input type="hidden" name="page" value="@ViewBag.logged" id="secret">
+            <div class="form-group ">
+                <label>Text</label>
+                <textarea class="form-control" rows="8" id="textComment" style="width:500px"></textarea>
+            </div>
+            <div class="form-group">
+                <button class="btn btn-success" id="sbmt">
+                    <i class="fas fa-pencil-alt"></i>
+                    Send Comment
+                </button>
+            </div>
+        </form>
     </div>
 </div>
+
+
+<script>$(document).ready(function () {
+        var url = window.location.href;
+        var result = url.substring(url.lastIndexOf('/') + 1);
+
+        $('#sbmt').click(function (e) {
+            e.preventDefault(); // prevent the form from being submitted
+
+            // pass the URL parameter in the data object
+            $.ajax({
+                url: '/Comment/AddComment/' + result, // the URL of the method
+                type: 'POST', // the HTTP method to use
+                data: {
+                    CurrentPageId: result,
+                    CommentText: $('#textComment').val(),
+                    UserInfo: $('#secret').val()
+                },
+                success: function (response) {
+                    location.reload();
+                },
+                error: function (error) {
+                    console.log(error);
+                }
+            });
+        });
+    });</script>
