@@ -34,6 +34,7 @@ namespace BaseIdentity.PresentationLayer.Areas.Admin.Controllers
         {
             using (var context = new Context())
             {
+                categoryName.IsNew = true;
                 context.Categories.Add(categoryName);
                 context.SaveChanges();
             }

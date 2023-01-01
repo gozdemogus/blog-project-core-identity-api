@@ -11,8 +11,9 @@ namespace BaseIdentity.EntityLayer.Concrete
 		[Key]
 		public int CategoryId { get; set; }
 		public string CategoryName { get; set; }
+		public bool IsNew { get; set; }
 
-        public ICollection<Blog> Blogs { get; set; }
+		public ICollection<Blog> Blogs { get; set; }
     }
 }
 
