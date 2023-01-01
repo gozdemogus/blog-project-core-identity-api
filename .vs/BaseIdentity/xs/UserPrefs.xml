@@ -1,35 +1,6 @@
-﻿<Properties StartupConfiguration="{6C015F86-8E18-4BC9-8DD3-D321A4F4915C}|WebApplication1" GitUserInfo="UsingGIT">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{6C015F86-8E18-4BC9-8DD3-D321A4F4915C}|WebApplication1">
+  <MonoDevelop.Ide.ItemProperties.BaseIdentity.PresentationLayer PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="BaseIdentity/Views/Shared/Components/BlogContentMail/Default.cshtml">
-    <Files>
-      <File FileName="BaseIdentity/Views/Shared/Components/BlogContentMail/Default.cshtml" Line="51" Column="17" />
-    </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="BaseIdentity" expanded="True">
-            <Node name="BaseIdentity.PresentationLayer" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Shared" expanded="True">
-                  <Node name="Components" expanded="True">
-                    <Node name="AddComment" expanded="True" />
-                    <Node name="BlogContentHead" expanded="True" />
-                    <Node name="BlogContentMail" expanded="True">
-                      <Node name="Default.cshtml" selected="True" />
-                    </Node>
-                    <Node name="MainDetailedBlogs" expanded="True" />
-                    <Node name="User" expanded="True" />
-                  </Node>
-                </Node>
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
-  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/ViewComponents/BlogMain/PopularMusic.cs" relfile="BaseIdentity/ViewComponents/BlogMain/PopularMusic.cs" line="41" column="1" />
@@ -38,7 +9,32 @@
       <Breakpoint file="/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Areas/Admin/Controllers/CategoryController.cs" relfile="BaseIdentity/Areas/Admin/Controllers/CategoryController.cs" line="36" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.BaseIdentity.PresentationLayer PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BaseIdentity/Areas/Writer/Views/ProfilePanel/Edit.cshtml">
+    <Files>
+      <File FileName="BaseIdentity/Areas/Writer/Views/ProfilePanel/Edit.cshtml" Line="43" Column="67" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BaseIdentity" expanded="True">
+            <Node name="BaseIdentity.PresentationLayer" expanded="True">
+              <Node name="Areas" expanded="True">
+                <Node name="Writer" expanded="True">
+                  <Node name="Models" expanded="True" />
+                  <Node name="Views" expanded="True">
+                    <Node name="AccountPanel" expanded="True" />
+                    <Node name="ProfilePanel" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="ViewComponents" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
 </Properties>
