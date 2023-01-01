@@ -24,12 +24,28 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQ2F0ZWdvcnkvQWRkQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Areas/Admin/Views/Role/AddRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvUm9sZS9BZGRSb2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Areas/Admin/Views/Role/AssignRole.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvUm9sZS9Bc3NpZ25Sb2xlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Areas/Admin/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Areas/Admin/Views/Role/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvUm9sZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Areas/Admin/Views/Role/UpdateRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvUm9sZS9VcGRhdGVSb2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Areas/Admin/Views/Role/UserList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvUm9sZS9Vc2VyTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Areas/Admin/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Areas/Writer/Views/AccountPanel/ChangePassword.cshtml]
@@ -64,12 +80,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvV3JpdGVyL1ZpZXdzL1Byb2ZpbGVQYW5lbC9FZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Areas/Writer/Views/Shared/Components/User/Default.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvV3JpdGVyL1ZpZXdzL1NoYXJlZC9Db21wb25lbnRzL1VzZXIvRGVmYXVsdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Areas/Writer/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvV3JpdGVyL1ZpZXdzL19WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Areas/Writer/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvV3JpdGVyL19WaWV3SW1wb3J0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Views/Blog/Content.cshtml]
@@ -158,6 +174,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Views/Shared/Components/Replies/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvUmVwbGllcy9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Views/Shared/Components/User/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvVXNlci9EZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Views/Shared/Error.cshtml]

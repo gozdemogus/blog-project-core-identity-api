@@ -52,10 +52,8 @@
     <None Remove="Areas\Writer\" />
     <None Remove="Areas\Writer\Views\" />
     <None Remove="Areas\Writer\Controllers\" />
-    <None Remove="Areas\Writer\ViewComponents\" />
     <None Remove="Areas\Writer\Views\Shared\" />
     <None Remove="Areas\Writer\Views\Shared\Components\" />
-    <None Remove="Areas\Writer\Views\Shared\Components\User\" />
     <None Remove="Views\Shared\Components\AddComment\" />
     <None Remove="MailKit" />
     <None Remove="MimeKit" />
@@ -64,6 +62,7 @@
     <None Remove="Areas\Admin\Views\Category\" />
     <None Remove="Areas\Writer\Models\" />
     <None Remove="Views\Password\" />
+    <None Remove="Views\Shared\Components\User\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.17" />
@@ -111,15 +110,14 @@
     <Folder Include="Areas\Writer\" />
     <Folder Include="Areas\Writer\Views\" />
     <Folder Include="Areas\Writer\Controllers\" />
-    <Folder Include="Areas\Writer\ViewComponents\" />
     <Folder Include="Areas\Writer\Views\Shared\" />
     <Folder Include="Areas\Writer\Views\Shared\Components\" />
-    <Folder Include="Areas\Writer\Views\Shared\Components\User\" />
     <Folder Include="Views\Shared\Components\AddComment\" />
     <Folder Include="Areas\Admin\Views\Role\" />
     <Folder Include="Areas\Admin\Views\Category\" />
     <Folder Include="Areas\Writer\Models\" />
     <Folder Include="Views\Password\" />
+    <Folder Include="Views\Shared\Components\User\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="wwwroot\Tema\.github\FUNDING.yml" />

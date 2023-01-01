@@ -1,213 +1,246 @@
 ﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Responsive Bootstrap Advance Admin Template</title>
+<html lang="en">
 
-    <!-- BOOTSTRAP STYLES-->
-    <link href="~/WriterTema/advance-admin/assets/css/bootstrap.css" rel="stylesheet" />
-    <!-- FONTAWESOME STYLES-->
-    <link href="~/WriterTema/advance-admin/assets/css/font-awesome.css" rel="stylesheet" />
-    <!--CUSTOM BASIC STYLES-->
-    <link href="~/WriterTema/advance-admin/assets/css/basic.css" rel="stylesheet" />
-    <!--CUSTOM MAIN STYLES-->
-    <link href="~/WriterTema/advance-admin/assets/css/custom.css" rel="stylesheet" />
-    <!-- GOOGLE FONTS-->
-    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css' />
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Bloggy Admin</title>
+    <!-- base:css -->
+    <link rel="stylesheet" href="~/template/vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="~/template/vendors/feather/feather.css">
+    <link rel="stylesheet" href="~/template/vendors/base/vendor.bundle.base.css">
+    <!-- endinject -->
+    <!-- plugin css for this page -->
+    <link rel="stylesheet" href="~/template/vendors/flag-icon-css/css/flag-icon.min.css" />
+    <link rel="stylesheet" href="~/template/vendors/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/template/vendors/jquery-bar-rating/fontawesome-stars-o.css">
+    <link rel="stylesheet" href="~/template/vendors/jquery-bar-rating/fontawesome-stars.css">
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="~/template/css/style.css">
+    <!-- endinject -->
+    <link rel="shortcut icon" href="~/template/images/favicon.png" />
 </head>
 <body>
-    <div id="wrapper">
-        <nav class="navbar navbar-default navbar-cls-top " role="navigation" style="margin-bottom: 0">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html">Bloggy!</a>
+   
+    <div class="container-scroller">
+        <!-- partial:partials/_navbar.html -->
+        <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+            <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
+                @*<a class="navbar-brand brand-logo" href="index.html"><img src="" alt="logo" /></a>
+                <a class="navbar-brand brand-logo-mini" href="index.html"><img src="" alt="logo" /></a>*@
             </div>
-
-            <div class="header-right">
-
-                @*<a href="~/WriterTema/advance-admin/message-task.html" class="btn btn-info" title="New Message"><b>30 </b><i class="fa fa-envelope-o fa-2x"></i></a>
-                <a href="~/WriterTema/advance-admin/message-task.html" class="btn btn-primary" title="New Task"><b>40 </b><i class="fa fa-bars fa-2x"></i></a>
-                <a href="~/WriterTema/advance-admin/login.html" class="btn btn-danger" title="Logout"><i class="fa fa-exclamation-circle fa-2x"></i></a>*@
-
-
+            <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
+                <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
+                    <span class="icon-menu"></span>
+                </button>
+                <ul class="navbar-nav mr-lg-2">
+                    <li class="nav-item nav-search d-none d-lg-block">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="search">
+                                    <i class="icon-search"></i>
+                                </span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="" aria-label="search" aria-describedby="search">
+                        </div>
+                    </li>
+                </ul>
+                <ul class="navbar-nav navbar-nav-right">
+                    <li class="nav-item dropdown d-lg-flex d-none">
+                        <a href="/Writer/Content/Add">  <button type="button" class="btn btn-success font-weight-bold">+ New Content</button></a>
+                    </li>
+                    <li class="nav-item dropdown d-flex">
+                        <a class="nav-link count-indicator dropdown-toggle d-flex justify-content-center align-items-center" id="messageDropdown" href="#" data-toggle="dropdown">
+                            <i class="icon-air-play mx-0"></i>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="messageDropdown">
+                            <p class="mb-0 font-weight-normal float-left dropdown-header">Messages</p>
+                            <a class="dropdown-item preview-item">
+                                <div class="preview-thumbnail">
+                                    <img src="~/template/images/faces/face4.jpg" alt="image" class="profile-pic">
+                                </div>
+                                <div class="preview-item-content flex-grow">
+                                    <h6 class="preview-subject ellipsis font-weight-normal">
+                                        David Grey
+                                    </h6>
+                                    <p class="font-weight-light small-text text-muted mb-0">
+                                        The meeting is cancelled
+                                    </p>
+                                </div>
+                            </a>
+                            <a class="dropdown-item preview-item">
+                                <div class="preview-thumbnail">
+                                    <img src="~/template/images/faces/face2.jpg" alt="image" class="profile-pic">
+                                </div>
+                                <div class="preview-item-content flex-grow">
+                                    <h6 class="preview-subject ellipsis font-weight-normal">
+                                        Tim Cook
+                                    </h6>
+                                    <p class="font-weight-light small-text text-muted mb-0">
+                                        New product launch
+                                    </p>
+                                </div>
+                            </a>
+                            <a class="dropdown-item preview-item">
+                                <div class="preview-thumbnail">
+                                    <img src="~/template/images/faces/face3.jpg" alt="image" class="profile-pic">
+                                </div>
+                                <div class="preview-item-content flex-grow">
+                                    <h6 class="preview-subject ellipsis font-weight-normal">
+                                        Johnson
+                                    </h6>
+                                    <p class="font-weight-light small-text text-muted mb-0">
+                                        Upcoming board meeting
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown d-flex mr-4 ">
+                        <a class="nav-link count-indicator dropdown-toggle d-flex align-items-center justify-content-center" id="notificationDropdown" href="#" data-toggle="dropdown">
+                            <i class="icon-cog"></i>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="notificationDropdown">
+                            <p class="mb-0 font-weight-normal float-left dropdown-header">Settings</p>
+                            <a class="dropdown-item preview-item">
+                                <i class="icon-head"></i> Profile
+                            </a>
+                            <a class="dropdown-item preview-item">
+                                <i class="icon-inbox"></i> Logout
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown mr-4 d-lg-flex d-none">
+                        <a class="nav-link count-indicatord-flex align-item s-center justify-content-center" href="#">
+                            <i class="icon-grid"></i>
+                        </a>
+                    </li>
+                </ul>
+                <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+                    <span class="icon-menu"></span>
+                </button>
             </div>
         </nav>
-        <!-- /. NAV TOP  -->
-        <nav class="navbar-default navbar-side" role="navigation">
-            <div class="sidebar-collapse">
-                <ul class="nav" id="main-menu">
-                    @await Component.InvokeAsync("User")
-
-                    <li>
-                        <a href="/Writer/Content/Index"><i class="fa fa-book "></i>Contents</a>
+        <!-- partial -->
+        <div class="container-fluid page-body-wrapper">
+            <!-- partial:partials/_sidebar.html -->
+            <nav class="sidebar sidebar-offcanvas" id="sidebar">
+                @await Component.InvokeAsync("User")
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Writer/Content/Index">
+                            <i class="icon-box menu-icon"></i>
+                            <span class="menu-title">Contents</span>
+                        </a>
                     </li>
-                    <li>
-                        <a href="#"><i class="fa fa-desktop "></i>Profile <span class="fa arrow"></span></a>
-                        <ul class="nav nav-second-level">
-                            <li>
-                                <a href="/Writer/Profile/"><i class="fa fa-toggle-on"></i>See</a>
-                            </li>
-                            <li>
-                                <a href="/Writer/ProfilePanel/Edit/"><i class="fa fa-bell "></i>Edit</a>
-                            </li>
-                            @*<li>
-                    <a href="progress.html"><i class="fa fa-circle-o "></i>Progressbars</a>
-                </li>
-                <li>
-                    <a href="buttons.html"><i class="fa fa-code "></i>Buttons</a>
-                </li>
-                <li>
-                    <a href="icons.html"><i class="fa fa-bug "></i>Icons</a>
-                </li>
-                <li>
-                    <a href="wizard.html"><i class="fa fa-bug "></i>Wizard</a>
-                </li>
-                <li>
-                    <a href="typography.html"><i class="fa fa-edit "></i>Typography</a>
-                </li>
-                <li>
-                    <a href="grid.html"><i class="fa fa-eyedropper "></i>Grid</a>
-                </li>*@
-
-
-                        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
+                            <i class="icon-disc menu-icon"></i>
+                            <span class="menu-title">Account Settings</span>
+                            <i class="menu-arrow"></i>
+                        </a>
+                        <div class="collapse" id="ui-basic">
+                            <ul class="nav flex-column sub-menu">
+                                <li class="nav-item"> <a class="nav-link" href="/Writer/AccountPanel/ChangePassword">Change Password</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="/Writer/AccountPanel/Delete">Delete Account</a></li>
+                            </ul>
+                        </div>
                     </li>
-                    <li>
-                        <a href="#"><i class="fa fa-cog "></i>Account Settings<span class="fa arrow"></span></a>
-                        <ul class="nav nav-second-level">
-                            <li>
-                                <a href="/Writer/AccountPanel/Delete/"><i class="fa fa-edit"></i>Delete</a>
-                            </li>
-                            <li>
-                                <a href="/Writer/AccountPanel/ChangePassword/"><i class="fa fa-edit"></i>Change Password</a>
-                            </li>
-
-                            @*<li>
-            <a href="component.html"><i class="fa fa-key "></i>Components</a>
-        </li>
-        <li>
-            <a href="social.html"><i class="fa fa-send "></i>Social</a>
-        </li>*@
-
-
-
-
-
-                        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Writer/ProfilePanel/Edit">
+                            <i class="icon-file menu-icon"></i>
+                            <span class="menu-title">Edit Profile</span>
+                        </a>
                     </li>
-
-                    <li>       <a href="/Home/Index/"><i class="fa fa-home "></i>Go To Site</a></li>
-
-          
-                    <li>
-                        <a href="/Login/Logout/"><i class="fa fa-sign-in "></i>Log Out</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Home/Index/">
+                            <i class="icon-pie-graph menu-icon"></i>
+                            <span class="menu-title">Go To Site</span>
+                        </a>
                     </li>
-                    @*<li>
-            <a href="table.html"><i class="fa fa-flash "></i>Data Tables </a>
-
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Admin/Role/Index/">
+                            <i class="icon-star menu-icon"></i>
+                            <span class="menu-title">Admin Panel</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Login/Logout/">
+                            <i class="icon-command menu-icon"></i>
+                            <span class="menu-title">Log Out</span>
+                        </a>
+                    </li>
+                    @*<li class="nav-item">
+            <a class="nav-link" href="pages/icons/feather-icons.html">
+                <i class="icon-help menu-icon"></i>
+                <span class="menu-title">Icons</span>
+            </a>
         </li>
-        <li>
-            <a href="#"><i class="fa fa-bicycle "></i>Forms <span class="fa arrow"></span></a>
-            <ul class="nav nav-second-level">
-
-                <li>
-                    <a href="form.html"><i class="fa fa-desktop "></i>Basic </a>
-                </li>
-                <li>
-                    <a href="form-advance.html"><i class="fa fa-code "></i>Advance</a>
-                </li>
-
-
-            </ul>
-        </li>
-        <li>
-            <a href="gallery.html"><i class="fa fa-anchor "></i>Gallery</a>
-        </li>
-        <li>
-            <a href="error.html"><i class="fa fa-bug "></i>Error Page</a>
-        </li>
-        <li>
-            <a href="login.html"><i class="fa fa-sign-in "></i>Login Page</a>
-        </li>
-        <li>
-            <a href="#"><i class="fa fa-sitemap "></i>Multilevel Link <span class="fa arrow"></span></a>
-            <ul class="nav nav-second-level">
-                <li>
-                    <a href="#"><i class="fa fa-bicycle "></i>Second Level Link</a>
-                </li>
-                <li>
-                    <a href="#"><i class="fa fa-flask "></i>Second Level Link</a>
-                </li>
-                <li>
-                    <a href="#">Second Level Link<span class="fa arrow"></span></a>
-                    <ul class="nav nav-third-level">
-                        <li>
-                            <a href="#"><i class="fa fa-plus "></i>Third Level Link</a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-comments-o "></i>Third Level Link</a>
-                        </li>
-
-                    </ul>
-
-                </li>
-            </ul>
-        </li>
-
-        <li>
-            <a class="active-menu" href="blank.html"><i class="fa fa-square-o "></i>Blank Page</a>
-        </li>*@
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
+                <i class="icon-head menu-icon"></i>
+                <span class="menu-title">User Pages</span>
+                <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="auth">
+                <ul class="nav flex-column sub-menu">
+                    <li class="nav-item"> <a class="nav-link" href="pages/samples/login.html"> Login </a></li>
+                    <li class="nav-item"> <a class="nav-link" href="pages/samples/login-2.html"> Login 2 </a></li>
+                    <li class="nav-item"> <a class="nav-link" href="pages/samples/register.html"> Register </a></li>
+                    <li class="nav-item"> <a class="nav-link" href="pages/samples/register-2.html"> Register 2 </a></li>
+                    <li class="nav-item"> <a class="nav-link" href="pages/samples/lock-screen.html"> Lockscreen </a></li>
                 </ul>
             </div>
-
-        </nav>
-        <!-- /. NAV SIDE  -->
-        <div id="page-wrapper">
-            <div id="page-inner">
-                @*<div class="row">
-                    <div class="col-md-12">
-                        <h1 class="page-head-line">BLANK PAGE</h1>
-                        <h1 class="page-subhead-line">This is dummy text , you can replace it with your original text. </h1>
-
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="docs/documentation.html">
+                <i class="icon-book menu-icon"></i>
+                <span class="menu-title">Documentation</span>
+            </a>
+        </li>*@
+                </ul>
+            </nav>
+            <!-- partial -->
+            <div class="main-panel">
+                <div class="content-wrapper">
+                   
+                    @RenderBody()
+                </div>
+                <!-- content-wrapper ends -->
+                <!-- partial:partials/_footer.html -->
+                <footer class="footer">
+                    <div class="d-sm-flex justify-content-center justify-content-sm-between">
+                        <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © bootstrapdash.com 2020</span>
+                        <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center"> Free <a href="https://www.bootstrapdash.com/" target="_blank">Bootstrap dashboard templates</a> from Bootstrapdash.com</span>
                     </div>
-                </div>*@
-                <!-- /. ROW  -->
-                @*<div class="row">
-                    <div class="col-md-12">
-                        <div class="alert alert-info">
-                            This is a free responsive admin under cc3.0 license, so you can use it for personal and commercial use.
-                            <br />
-                            Enjoy this admin and for more please keep looking <a href="http://www.binarytheme.com/" target="_blank">BinaryTheme.com</a>
-                        </div>
-                    </div>
-                </div>*@
-                @RenderBody()
+                </footer>
+                <!-- partial -->
             </div>
-            <!-- /. PAGE INNER  -->
+            <!-- main-panel ends -->
         </div>
-        <!-- /. PAGE WRAPPER  -->
+        <!-- page-body-wrapper ends -->
     </div>
-    <!-- /. WRAPPER  -->
-    <div id="footer-sec">
-        &copy; 2014 YourCompany | Design By : <a href="http://www.binarytheme.com/" target="_blank">BinaryTheme.com</a>
-    </div>
-    <!-- /. FOOTER  -->
-    <!-- SCRIPTS -AT THE BOTOM TO REDUCE THE LOAD TIME-->
-    <!-- JQUERY SCRIPTS -->
-    <script src="~/WriterTema/advance-admin/assets/js/jquery-1.10.2.js"></script>
-    <!-- BOOTSTRAP SCRIPTS -->
-    <script src="~/WriterTema/advance-admin/assets/js/bootstrap.js"></script>
-    <!-- METISMENU SCRIPTS -->
-    <script src="~/WriterTema/advance-admin/assets/js/jquery.metisMenu.js"></script>
-    <!-- CUSTOM SCRIPTS -->
-    <script src="~/WriterTema/advance-admin/assets/js/custom.js"></script>
-
-
+    <!-- container-scroller -->
+    <!-- base:js -->
+    <script src="~/template/vendors/base/vendor.bundle.base.js"></script>
+    <!-- endinject -->
+    <!-- Plugin js for this page-->
+    <!-- End plugin js for this page-->
+    <!-- inject:js -->
+    <script src="~/template/js/off-canvas.js"></script>
+    <script src="~/template/js/hoverable-collapse.js"></script>
+    <script src="~/template/js/template.js"></script>
+    <!-- endinject -->
+    <!-- plugin js for this page -->
+    <script src="~/template/vendors/chart.js/Chart.min.js"></script>
+    <script src="~/template/vendors/jquery-bar-rating/jquery.barrating.min.js"></script>
+    <!-- End plugin js for this page -->
+    <!-- Custom js for this page-->
+    <script src="~/template/js/dashboard.js"></script>
+    <!-- End custom js for this page-->
 </body>
+
 </html>
+
