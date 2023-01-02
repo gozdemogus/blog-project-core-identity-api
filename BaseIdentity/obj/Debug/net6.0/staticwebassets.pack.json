@@ -1,6 +1,38 @@
 {
   "Files": [
     {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/403/LICENSE.txt",
+      "PackagePath": "staticwebassets/403/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/403/README.md",
+      "PackagePath": "staticwebassets/403/README.md"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/403/dist/index.html",
+      "PackagePath": "staticwebassets/403/dist/index.html"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/403/dist/script.js",
+      "PackagePath": "staticwebassets/403/dist/script.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/403/dist/style.css",
+      "PackagePath": "staticwebassets/403/dist/style.css"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/403/src/index.html",
+      "PackagePath": "staticwebassets/403/src/index.html"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/403/src/script.js",
+      "PackagePath": "staticwebassets/403/src/script.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/403/src/style.css",
+      "PackagePath": "staticwebassets/403/src/style.css"
+    },
+    {
       "Id": "/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/wwwroot/Tema/LICENSE.txt",
       "PackagePath": "staticwebassets/Tema/LICENSE.txt"
     },

@@ -1,6 +1,7 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{6C015F86-8E18-4BC9-8DD3-D321A4F4915C}|WebApplication1">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.BaseIdentity.PresentationLayer PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/ViewComponents/BlogMain/PopularMusic.cs" relfile="BaseIdentity/ViewComponents/BlogMain/PopularMusic.cs" line="41" column="1" />
@@ -9,11 +10,11 @@
       <Breakpoint file="/Users/gozdemogus/Desktop/BlogProject/Blog/BaseIdentity/Areas/Admin/Controllers/CategoryController.cs" relfile="BaseIdentity/Areas/Admin/Controllers/CategoryController.cs" line="36" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="BaseIdentity/Areas/Writer/Views/ProfilePanel/Edit.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BaseIdentity/Areas/Writer/Controllers/AccountPanelController.cs">
     <Files>
-      <File FileName="BaseIdentity/Areas/Writer/Views/ProfilePanel/Edit.cshtml" Line="43" Column="67" />
+      <File FileName="BaseIdentity/Controllers/WriterController.cs" Line="1" Column="1" />
+      <File FileName="BaseIdentity/Controllers/PasswordController.cs" Line="1" Column="1" />
+      <File FileName="BaseIdentity/Areas/Writer/Controllers/AccountPanelController.cs" Line="65" Column="38" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -22,6 +23,9 @@
             <Node name="BaseIdentity.PresentationLayer" expanded="True">
               <Node name="Areas" expanded="True">
                 <Node name="Writer" expanded="True">
+                  <Node name="Controllers" expanded="True">
+                    <Node name="AccountPanelController.cs" selected="True" />
+                  </Node>
                   <Node name="Models" expanded="True" />
                   <Node name="Views" expanded="True">
                     <Node name="AccountPanel" expanded="True" />
@@ -29,12 +33,15 @@
                   </Node>
                 </Node>
               </Node>
-              <Node name="Models" expanded="True" />
-              <Node name="ViewComponents" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="ViewComponents" expanded="True">
+                <Node name="BlogMain" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

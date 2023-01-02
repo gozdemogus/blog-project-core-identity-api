@@ -46,6 +46,7 @@ namespace WebApplication1
             services.ConfigureApplicationCookie(options =>
             {
                 options.LoginPath = "/Login/Index";
+                options.AccessDeniedPath = "/Error/Index";
             });
         }
 

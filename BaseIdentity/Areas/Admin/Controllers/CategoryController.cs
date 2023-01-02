@@ -13,7 +13,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace BaseIdentity.PresentationLayer.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    [AllowAnonymous]
+    [Authorize(Roles = "Admin")]
     public class CategoryController : Controller
     {
         // GET: /<controller>/

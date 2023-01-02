@@ -63,6 +63,7 @@
     <None Remove="Areas\Writer\Models\" />
     <None Remove="Views\Password\" />
     <None Remove="Views\Shared\Components\User\" />
+    <None Remove="Views\Error\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.17" />
@@ -118,6 +119,7 @@
     <Folder Include="Areas\Writer\Models\" />
     <Folder Include="Views\Password\" />
     <Folder Include="Views\Shared\Components\User\" />
+    <Folder Include="Views\Error\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="wwwroot\Tema\.github\FUNDING.yml" />
