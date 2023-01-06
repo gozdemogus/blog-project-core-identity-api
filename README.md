@@ -17,6 +17,7 @@ A .NET Core arts and culture project, which users can register, sign in, add con
     </li>
     <li><a href="#roles">Roles</a></li>
         <li><a href="#info">User Info</a></li>
+                     <li><a href="#identity">Identity Operations</a></li>
             <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -24,7 +25,7 @@ A .NET Core arts and culture project, which users can register, sign in, add con
 
 ## About
 - Includes blog posts about art, movies, music, events, etc.
-- At home page, I used and API from www.musixmatch.com, to get daily data of Turkey about popular songs.
+- At home page, I used an API from www.musixmatch.com, to get daily data of Turkey about popular songs.
 - Users can register and add their own content.
 - There are writer and admin roles
 - Admin can assign roles to writers.
@@ -49,15 +50,6 @@ User can visit writer profiles, get personal infos and writer's contents.
 
 <img width="1284" alt="image" src="https://user-images.githubusercontent.com/107196935/211004230-51562a58-01e7-4a01-ad4e-07b83708fa17.png">
 
-## Register - Sign In - Forgot My Password
-
-<img width="1284" alt="image" src="https://user-images.githubusercontent.com/107196935/211004759-1c83e13f-023c-4a87-82c7-a4b49ab42ea5.png">
-<img width="1134" alt="image" src="https://user-images.githubusercontent.com/107196935/211000425-c4770136-b4f6-4a04-b45a-e101cd5193da.png">
-<img width="1284" alt="image" src="https://user-images.githubusercontent.com/107196935/211005119-0a032d9a-c71e-4006-a0aa-111b3cc7497a.png">
-<img width="1284" alt="image" src="https://user-images.githubusercontent.com/107196935/211005053-75b2b544-cf4f-4f77-9ae9-ae77efe5bb7d.png">
-<img width="1006" alt="image" src="https://user-images.githubusercontent.com/107196935/211009378-5e76bf68-6897-4143-ae65-1a13813feaee.png">
-<img width="1284" alt="image" src="https://user-images.githubusercontent.com/107196935/211005357-3ebdd3aa-2cd1-474f-a3ad-78d812886e6c.png">
-
 ## Roles
 :star2: Areas used for writer - admin panels.
 User can edit contents.
@@ -73,7 +65,16 @@ User can edit contents.
 <img width="1284" alt="image" src="https://user-images.githubusercontent.com/107196935/211005741-2bf3dc27-2f47-4d39-988c-71bd2b00dbca.png">
 <img width="1284" alt="image" src="https://user-images.githubusercontent.com/107196935/211005799-4016fc68-d4e0-442b-8b81-3b5806a11ad6.png">
 
-# Contact
+## Identity
+
+<img width="1284" alt="image" src="https://user-images.githubusercontent.com/107196935/211004759-1c83e13f-023c-4a87-82c7-a4b49ab42ea5.png">
+<img width="1134" alt="image" src="https://user-images.githubusercontent.com/107196935/211000425-c4770136-b4f6-4a04-b45a-e101cd5193da.png">
+<img width="1284" alt="image" src="https://user-images.githubusercontent.com/107196935/211005119-0a032d9a-c71e-4006-a0aa-111b3cc7497a.png">
+<img width="1284" alt="image" src="https://user-images.githubusercontent.com/107196935/211005053-75b2b544-cf4f-4f77-9ae9-ae77efe5bb7d.png">
+<img width="1006" alt="image" src="https://user-images.githubusercontent.com/107196935/211009378-5e76bf68-6897-4143-ae65-1a13813feaee.png">
+<img width="1284" alt="image" src="https://user-images.githubusercontent.com/107196935/211005357-3ebdd3aa-2cd1-474f-a3ad-78d812886e6c.png">
+
+## Contact
 
 Gözdem Oğuş - [@Linkedin](https://www.linkedin.com/in/gozdemogus/) 
 
