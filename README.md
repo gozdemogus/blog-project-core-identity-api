@@ -1,3 +1,4 @@
+<a name="readme-top"></a>
 # Identity - .NET Core - Arts and Culture Blog Project :performing_arts:	:art:	
 
 A .NET Core arts and culture project, which users can register, sign in, add content, edit and delete their content, reset password, includes admin and writer roles. Filters categories, read and comment blog posts. 
