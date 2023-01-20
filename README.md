@@ -33,6 +33,16 @@ A .NET Core arts and culture project, which users can register, sign in, add con
 - Mail confirmation after registration is available.
 - Password operations can be done, when user forgets password, can get a new password.
 
+## Used
+
+- .NET Core 5.0
+- Entity Framework
+- Fluent API
+- Identity Framework
+- JavaScript, jQuery, Ajax
+- HTML, CSS
+- Consumed API's
+
 
 ## Home
 <img width="1141" alt="image" src="https://user-images.githubusercontent.com/107196935/210999862-4b0daef2-f642-4e03-b5d8-4b2977373940.png">
